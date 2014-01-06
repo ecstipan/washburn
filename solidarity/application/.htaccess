@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteCond $1 !^(index\.php|swf|images|uploads|ioncube|js|css|robots\.txt|CoreSettings\.php|install\.php)
+RewriteRule ^(.*)$ /washburn/solidarity/application/index.php?url=$1
