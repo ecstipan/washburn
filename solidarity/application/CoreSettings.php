@@ -3,17 +3,17 @@
 	if (!defined('SOLIDARITY')) die('Hacking attempt...');
 	global $coreSettings;
 	
-	$coreSettings['serial_number']					= '4Y54DU15j-f54WxU';
-	$coreSettings['product_key']					= 'g56sY5d6s2j1s6jYdf1h';
+	$coreSettings['serial_number']					= '';
+	$coreSettings['product_key']					= '';
 	
 	$coreSettings['enable_debug']					= false;
 	
 	//bare minimum connection credentials
 	$coreSettings['database']['driver'] 			= 'mysql'; 					//mysql, mssql, oci
 	$coreSettings['database']['host'] 				= 'localhost';
-	$coreSettings['database']['database'] 			= 'solidarity_wpi';
-	$coreSettings['database']['username'] 			= 'solidarity_wpi';
-	$coreSettings['database']['password'] 			= '47Kpy2CADGP2LvJS';
+	$coreSettings['database']['database'] 			= '';
+	$coreSettings['database']['username'] 			= '';
+	$coreSettings['database']['password'] 			= '';
 	
 	//other things your driver may need
 	$coreSettings['database']['port'] 				= '3306';

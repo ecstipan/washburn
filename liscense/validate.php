@@ -34,9 +34,9 @@
     //This does not have a driver as this does not go thorugh PDO!
     $connectionCredentials= array(
 		'hostname'		=> 'localhost',
-		'database'		=> 'solidarity_liscence',
-		'username'		=> 'liscence_remote',
-		'password'		=> 'xqPmtRdGDHmEbbx4',
+		'database'		=> '',
+		'username'		=> '',
+		'password'		=> '',
 	);
 	
 	//our output for later
